@@ -8,7 +8,7 @@
 
 I am a robotics graduate student interested in building intelligent systems that can perceive the world, make reliable decisions, and act with precision.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Research-38bdf8?style=for-the-badge&logo=githubpages&logoColor=white)](https://kbsybf.github.io/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Research-38bdf8?style=for-the-badge&logo=githubpages&logoColor=white)](https://kbsybf.github.io/kbsybf/)
 [![GitHub](https://img.shields.io/badge/GitHub-kbsybf-111827?style=for-the-badge&logo=github)](https://github.com/kbsybf)
 
 </div>
@@ -40,7 +40,7 @@ I am a robotics graduate student interested in building intelligent systems that
 
 ## Connect
 
-The full visual portfolio is available on the [GitHub Pages site](https://kbsybf.github.io/).
+The full visual portfolio is available on the [GitHub Pages site](https://kbsybf.github.io/kbsybf/).
 
 <!--
 Profile checklist:

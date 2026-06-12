@@ -6,8 +6,8 @@
 
 ### Robotics × Embedded Systems × Embodied AI
 
-上海科技大学硕士研究生 · 本科毕业于南京邮电大学  
-关注机器人、嵌入式系统、电机控制、ROS 2 与具身智能
+关注机器人、嵌入式系统、电机控制、ROS 2 与具身智能  
+记录从底层控制到具身智能的长期技术成长
 
 [![Portfolio](https://img.shields.io/badge/Research_Portfolio-Visit-38BDF8?style=for-the-badge&logo=githubpages&logoColor=white)](https://kbsybf.github.io/kbsybf/)
 [![GitHub](https://img.shields.io/badge/GitHub-kbsybf-111827?style=for-the-badge&logo=github)](https://github.com/kbsybf)
@@ -28,9 +28,8 @@
 <a id="about-me"></a>
 ## About Me
 
-我是一名聚焦机器人技术的硕士研究生，希望沿着 **底层控制 → 嵌入式系统 → 机器人软件 → 具身智能** 的路径，建立对完整机器人系统的理解。
+我专注于机器人技术的长期学习与实践，希望沿着 **底层控制 → 嵌入式系统 → 机器人软件 → 具身智能** 的路径，建立对完整机器人系统的理解。
 
-- **教育经历：** 上海科技大学硕士研究生，本科毕业于南京邮电大学
 - **当前研究方向：** 机器人系统、嵌入式开发、电机控制、ROS 2、具身智能（Embodied AI）
 - **技术兴趣：** 实时控制、运动控制、机器人中间件、感知与决策、VLA（Vision-Language-Action）
 - **长期关注：** 机器人软硬件协同、具身基础模型、人形机器人技术路线与产业演进

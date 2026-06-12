@@ -1,42 +1,49 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Robotics graduate student portfolio focused on perception, planning, manipulation, and control."
+      content="YBF 的机器人技术成长主页，聚焦嵌入式系统、电机控制、ROS 2、具身智能与 VLA。"
     />
     <meta name="theme-color" content="#050a16" />
-    <meta property="og:title" content="kbsybf | Robotics Research" />
+    <meta property="og:title" content="YBF | Robotics · Embedded Systems · Embodied AI" />
     <meta
       property="og:description"
-      content="Building robots that perceive, reason, and act."
+      content="探索机器人从感知、决策到控制的完整技术栈。"
     />
     <meta property="og:image" content="assets/robotics-hero.png" />
-    <title>kbsybf | Robotics Research</title>
+    <title>YBF | 机器人技术成长档案馆</title>
     <link rel="icon" href="assets/robot-mark.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main">跳到主要内容</a>
 
     <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="Back to top">
+      <a class="brand" href="#top" aria-label="返回首页">
         <span class="brand-mark" aria-hidden="true"></span>
-        <span>KBSYBF<span class="brand-dot">.</span>LAB</span>
+        <span>YBF<span class="brand-dot">.</span>LAB</span>
       </a>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#research">Research</a>
-        <a href="#work">Work</a>
-        <a href="#toolbox">Toolbox</a>
-        <a class="nav-cta" href="https://github.com/kbsybf">GitHub ↗</a>
+
+      <button class="menu-button" type="button" aria-label="打开导航" aria-expanded="false" data-menu-button>
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav" aria-label="主导航" data-nav>
+        <a href="#about">关于</a>
+        <a href="#roadmap">路线</a>
+        <a href="#projects">项目</a>
+        <a href="#notes">笔记</a>
+        <a href="#industry">产业</a>
+        <a class="nav-cta" href="https://github.com/kbsybf" target="_blank" rel="noreferrer">GitHub ↗</a>
       </nav>
     </header>
 
@@ -45,126 +52,297 @@
         <div class="hero-backdrop" aria-hidden="true"></div>
         <div class="hero-grid" aria-hidden="true"></div>
         <div class="hero-content">
-          <p class="eyebrow"><span></span> Robotics · Perception · Control</p>
-          <h1 id="hero-title">Building robots that<br /><em>perceive, reason, and act.</em></h1>
-          <p class="hero-copy">
-            Robotics graduate student exploring intelligent systems across
-            manipulation, autonomous navigation, computer vision, and embodied AI.
+          <p class="eyebrow"><span></span> Robotics Researcher in Progress</p>
+          <p class="hero-name">你好，我是 <strong>YBF</strong></p>
+          <h1 id="hero-title">
+            Robotics · Embedded Systems<br />
+            <em>· Embodied AI</em>
+          </h1>
+          <p class="hero-copy">探索机器人从感知、决策到控制的完整技术栈。</p>
+          <p class="hero-subcopy">
+            以嵌入式系统与电机控制为根基，持续构建 ROS 2、机器人系统与
+            Vision-Language-Action 的长期技术能力。
           </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#research">Explore research <span>↓</span></a>
-            <a class="button button-ghost" href="https://github.com/kbsybf">View GitHub <span>↗</span></a>
+          <div class="hero-actions" aria-label="快速导航">
+            <a class="button button-primary" href="#about">About Me <span>↓</span></a>
+            <a class="button button-ghost" href="#projects">Projects</a>
+            <a class="button button-ghost" href="#notes">Research Notes</a>
+            <a class="button button-ghost" href="#industry">Industry Insights</a>
+            <a class="button button-ghost" href="https://github.com/kbsybf" target="_blank" rel="noreferrer">GitHub ↗</a>
           </div>
           <div class="status-line">
             <span class="status-dot" aria-hidden="true"></span>
-            Open to research collaboration
+            技术成长档案持续更新中
           </div>
         </div>
         <div class="hero-index" aria-hidden="true">
           <span>01</span>
           <span class="index-line"></span>
-          <span>ROBOTICS RESEARCH</span>
+          <span>ROBOTICS · EMBODIED AI</span>
         </div>
       </section>
 
-      <section class="section intro-section" id="research">
+      <section class="section about-section" id="about">
         <div class="section-heading reveal">
-          <p class="kicker">Research focus</p>
-          <h2>From sensing to intelligent action.</h2>
+          <p class="kicker">01 / About Me</p>
+          <h2>理解完整系统，<br />解决真实问题。</h2>
           <p>
-            My research map connects three core layers of robotics: understanding the
-            environment, choosing what to do, and executing motion reliably.
+            我关注的不只是单点算法，而是机器人如何从底层执行、实时通信，走向环境理解与自主决策。
           </p>
         </div>
 
-        <div class="focus-grid">
-          <article class="focus-card reveal">
-            <div class="card-number">01</div>
-            <div class="focus-icon" aria-hidden="true">
-              <span class="scan-ring"></span><span class="scan-core"></span>
+        <div class="about-layout">
+          <article class="profile-panel reveal">
+            <div class="profile-id">
+              <span class="profile-avatar">Y</span>
+              <div>
+                <p class="mono-label">PROFILE / 001</p>
+                <h3>YBF</h3>
+                <p>机器人方向硕士研究生</p>
+              </div>
             </div>
-            <h3>Perception</h3>
-            <p>Computer vision, 3D sensing, representation learning, and sensor fusion.</p>
-            <div class="card-tags"><span>Vision</span><span>Point Cloud</span><span>Fusion</span></div>
+            <p class="profile-statement">
+              沿着“控制执行 → 嵌入式系统 → 机器人软件 → 具身智能”的路径，建立可落地、可复现、可持续演进的机器人技术体系。
+            </p>
+            <div class="profile-meta">
+              <span><b>状态</b>持续学习与实践</span>
+              <span><b>教育背景</b>硕士研究生 · 学校信息未公开</span>
+              <span><b>开放内容</b>代码 · 笔记 · 论文阅读 · 产业观察</span>
+            </div>
           </article>
 
-          <article class="focus-card reveal">
-            <div class="card-number">02</div>
-            <div class="focus-icon route-icon" aria-hidden="true">
-              <span></span><span></span><span></span>
-            </div>
-            <h3>Planning</h3>
-            <p>Motion planning, autonomous navigation, and decision-making under uncertainty.</p>
-            <div class="card-tags"><span>Navigation</span><span>Trajectory</span><span>SLAM</span></div>
-          </article>
-
-          <article class="focus-card reveal">
-            <div class="card-number">03</div>
-            <div class="focus-icon control-icon" aria-hidden="true">
-              <span></span><span></span><span></span><span></span>
-            </div>
-            <h3>Control</h3>
-            <p>Robot dynamics, trajectory tracking, robust control, and learning-based control.</p>
-            <div class="card-tags"><span>Dynamics</span><span>MPC</span><span>Learning</span></div>
-          </article>
+          <div class="about-cards">
+            <article class="info-card reveal">
+              <span class="card-symbol">◎</span>
+              <p class="mono-label">RESEARCH</p>
+              <h3>研究方向</h3>
+              <p>机器人系统、嵌入式开发、电机控制、ROS 2、具身智能与 VLA。</p>
+            </article>
+            <article class="info-card reveal">
+              <span class="card-symbol">⌁</span>
+              <p class="mono-label">INTERESTS</p>
+              <h3>技术兴趣</h3>
+              <p>实时系统、运动控制、机器人中间件、感知决策、多模态机器人学习。</p>
+            </article>
+            <article class="info-card reveal">
+              <span class="card-symbol">↗</span>
+              <p class="mono-label">MISSION</p>
+              <h3>个人目标</h3>
+              <p>成长为理解完整机器人系统、能够解决真实工程问题的技术研发人员。</p>
+            </article>
+            <article class="info-card reveal">
+              <span class="card-symbol">◇</span>
+              <p class="mono-label">METHOD</p>
+              <h3>成长方式</h3>
+              <p>通过项目、实验、论文复现与产业研究，持续校准技术判断。</p>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section work-section" id="work">
+      <section class="section roadmap-section" id="roadmap">
         <div class="section-heading reveal">
-          <p class="kicker">Featured work</p>
-          <h2>Research tracks worth building in public.</h2>
-          <p>Replace these tracks with your strongest repositories, papers, demos, and datasets.</p>
+          <p class="kicker">02 / Learning Roadmap</p>
+          <h2>从底层执行，<br />走向具身智能。</h2>
+          <p>路线不是技能清单，而是一条逐层理解机器人系统约束与能力边界的长期路径。</p>
         </div>
 
-        <div class="work-list">
-          <a class="work-item reveal" href="https://github.com/kbsybf">
-            <span class="work-code">MAN-01</span>
-            <span class="work-main"><strong>Robot Manipulation</strong><small>Perception-to-action pipelines for precise interaction</small></span>
-            <span class="work-meta">ROS 2 · Vision · Planning</span>
-            <span class="work-arrow">↗</span>
-          </a>
-          <a class="work-item reveal" href="https://github.com/kbsybf">
-            <span class="work-code">NAV-02</span>
-            <span class="work-main"><strong>Autonomous Navigation</strong><small>Mapping, localization, planning, and robust execution</small></span>
-            <span class="work-meta">SLAM · Control · C++</span>
-            <span class="work-arrow">↗</span>
-          </a>
-          <a class="work-item reveal" href="https://github.com/kbsybf">
-            <span class="work-code">VIS-03</span>
-            <span class="work-main"><strong>Vision & Embodied AI</strong><small>Representations that connect visual understanding to action</small></span>
-            <span class="work-meta">PyTorch · 3D · Learning</span>
-            <span class="work-arrow">↗</span>
-          </a>
+        <div class="roadmap" aria-label="技术学习路线图">
+          <article class="roadmap-step reveal">
+            <span class="step-index">01</span><span class="step-dot"></span>
+            <div><p class="mono-label">FOUNDATION</p><h3>C / C++</h3><p>语言基础、数据结构、现代 C++、工程化与调试。</p></div>
+          </article>
+          <article class="roadmap-step reveal">
+            <span class="step-index">02</span><span class="step-dot"></span>
+            <div><p class="mono-label">HARDWARE</p><h3>Embedded Systems</h3><p>MCU、外设驱动、通信协议、硬件接口与系统联调。</p></div>
+          </article>
+          <article class="roadmap-step reveal">
+            <span class="step-index">03</span><span class="step-dot"></span>
+            <div><p class="mono-label">REAL-TIME</p><h3>FreeRTOS</h3><p>任务调度、中断、队列、同步机制与资源管理。</p></div>
+          </article>
+          <article class="roadmap-step reveal">
+            <span class="step-index">04</span><span class="step-dot"></span>
+            <div><p class="mono-label">MOTION</p><h3>Motor Control</h3><p>电机模型、FOC、PID、编码器与多环控制。</p></div>
+          </article>
+          <article class="roadmap-step reveal">
+            <span class="step-index">05</span><span class="step-dot"></span>
+            <div><p class="mono-label">MIDDLEWARE</p><h3>ROS 2</h3><p>通信机制、TF、Launch、DDS 与机器人软件工程。</p></div>
+          </article>
+          <article class="roadmap-step reveal">
+            <span class="step-index">06</span><span class="step-dot"></span>
+            <div><p class="mono-label">SYSTEM</p><h3>Robotics</h3><p>运动学、动力学、感知、规划、控制与系统集成。</p></div>
+          </article>
+          <article class="roadmap-step reveal">
+            <span class="step-index">07</span><span class="step-dot"></span>
+            <div><p class="mono-label">INTELLIGENCE</p><h3>Embodied AI</h3><p>模仿学习、强化学习、多模态表征与真实机器人部署。</p></div>
+          </article>
+          <article class="roadmap-step reveal">
+            <span class="step-index">08</span><span class="step-dot"></span>
+            <div><p class="mono-label">FRONTIER</p><h3>VLA</h3><p>Vision-Language-Action、通用策略与具身基础模型。</p></div>
+          </article>
         </div>
       </section>
 
-      <section class="section toolbox-section" id="toolbox">
-        <div class="toolbox-panel reveal">
-          <div>
-            <p class="kicker">Research toolbox</p>
-            <h2>A practical stack for robotics experiments.</h2>
-          </div>
-          <div class="tool-cloud" aria-label="Technical skills">
-            <span>Python</span><span>C++</span><span>ROS 2</span><span>PyTorch</span>
-            <span>OpenCV</span><span>MATLAB</span><span>Linux</span><span>Git</span>
-          </div>
+      <section class="section projects-section" id="projects">
+        <div class="section-heading reveal">
+          <p class="kicker">03 / Projects</p>
+          <h2>用项目验证理解，<br />用复盘积累能力。</h2>
+          <p>这里将持续收录代码、硬件说明、实验数据、演示视频和工程复盘。</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-icon">▦</span><span class="project-status">BUILDING</span></div>
+            <p class="mono-label">P-01 / EMBEDDED</p>
+            <h3>Embedded Projects</h3>
+            <p>MCU 驱动、传感器、通信协议、实时任务与软硬件联调。</p>
+            <div class="card-tags"><span>C</span><span>MCU</span><span>FreeRTOS</span></div>
+            <a href="https://github.com/kbsybf?tab=repositories" target="_blank" rel="noreferrer">查看项目仓库 <span>↗</span></a>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-icon">⌁</span><span class="project-status planned">ROADMAP</span></div>
+            <p class="mono-label">P-02 / MOTION</p>
+            <h3>Motor Control Projects</h3>
+            <p>编码器采样、闭环控制、FOC、参数整定与性能分析。</p>
+            <div class="card-tags"><span>FOC</span><span>PID</span><span>Control</span></div>
+            <a href="https://github.com/kbsybf?tab=repositories" target="_blank" rel="noreferrer">查看项目仓库 <span>↗</span></a>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-icon">◎</span><span class="project-status planned">ROADMAP</span></div>
+            <p class="mono-label">P-03 / SOFTWARE</p>
+            <h3>ROS 2 Projects</h3>
+            <p>节点通信、TF、导航、机械臂、仿真与模块化系统开发。</p>
+            <div class="card-tags"><span>ROS 2</span><span>Nav2</span><span>MoveIt 2</span></div>
+            <a href="https://github.com/kbsybf?tab=repositories" target="_blank" rel="noreferrer">查看项目仓库 <span>↗</span></a>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-icon">◇</span><span class="project-status longterm">LONG-TERM</span></div>
+            <p class="mono-label">P-04 / SYSTEM</p>
+            <h3>Robotics Projects</h3>
+            <p>感知、规划、控制与嵌入式执行协同的端到端机器人系统。</p>
+            <div class="card-tags"><span>Perception</span><span>Planning</span><span>System</span></div>
+            <a href="https://github.com/kbsybf?tab=repositories" target="_blank" rel="noreferrer">查看项目仓库 <span>↗</span></a>
+          </article>
         </div>
       </section>
 
-      <section class="contact-section">
+      <section class="section notes-section" id="notes">
+        <div class="section-heading reveal">
+          <p class="kicker">04 / Research Notes</p>
+          <h2>将碎片知识，<br />连接成技术体系。</h2>
+          <p>笔记强调问题背景、原理推导、最小实验、失败记录与工程边界。</p>
+        </div>
+
+        <div class="notes-board">
+          <article class="note-card reveal"><span>01</span><div><p class="mono-label">ROBOT SOFTWARE</p><h3>ROS 2</h3><p>通信模型、DDS、TF、Launch、Nav2 与 MoveIt 2。</p></div><b>↗</b></article>
+          <article class="note-card reveal"><span>02</span><div><p class="mono-label">CONTROL</p><h3>Motor Control</h3><p>电机模型、FOC、多环控制、参数整定与实验分析。</p></div><b>↗</b></article>
+          <article class="note-card reveal"><span>03</span><div><p class="mono-label">LOW LEVEL</p><h3>Embedded Systems</h3><p>驱动开发、实时调度、通信协议与系统级调试。</p></div><b>↗</b></article>
+          <article class="note-card reveal"><span>04</span><div><p class="mono-label">ROBOTICS</p><h3>Robotics</h3><p>坐标变换、运动学、动力学、规划与控制基础。</p></div><b>↗</b></article>
+          <article class="note-card reveal"><span>05</span><div><p class="mono-label">INTELLIGENCE</p><h3>Embodied AI</h3><p>机器人学习、多模态表征、数据闭环与真实部署。</p></div><b>↗</b></article>
+        </div>
+      </section>
+
+      <section class="section papers-section" id="papers">
+        <div class="section-heading reveal">
+          <p class="kicker">05 / Paper Reading</p>
+          <h2>读懂方法，<br />也追问工程价值。</h2>
+          <p>从研究问题、核心方法、实验设置、局限性与部署价值五个维度形成阅读记录。</p>
+        </div>
+
+        <div class="paper-grid">
+          <article class="paper-card reveal">
+            <div class="paper-year">2023</div><p class="mono-label">VISION-LANGUAGE-ACTION</p>
+            <h3>RT-2</h3><p>视觉语言模型如何迁移到机器人控制，以及互联网知识能否改善动作泛化。</p>
+            <div class="paper-keywords"><span>VLM</span><span>Generalization</span></div>
+          </article>
+          <article class="paper-card reveal">
+            <div class="paper-year">2024</div><p class="mono-label">OPEN SOURCE VLA</p>
+            <h3>OpenVLA</h3><p>开源 VLA 模型的训练范式、数据规模、微调方式与真实机器人适配。</p>
+            <div class="paper-keywords"><span>7B Model</span><span>Fine-tuning</span></div>
+          </article>
+          <article class="paper-card reveal">
+            <div class="paper-year">2023</div><p class="mono-label">ROBOT POLICY</p>
+            <h3>Diffusion Policy</h3><p>用条件扩散模型表达多模态动作分布，处理高维连续控制任务。</p>
+            <div class="paper-keywords"><span>Diffusion</span><span>Visuomotor</span></div>
+          </article>
+          <article class="paper-card reveal">
+            <div class="paper-year">2024</div><p class="mono-label">BIMANUAL MANIPULATION</p>
+            <h3>Mobile ALOHA</h3><p>低成本双臂移动操作平台、数据采集方法与复杂全身任务学习。</p>
+            <div class="paper-keywords"><span>Imitation</span><span>Mobile Manipulation</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section industry-section" id="industry">
+        <div class="section-heading reveal">
+          <p class="kicker">06 / Industry Insights</p>
+          <h2>技术之外，<br />理解产业如何发生。</h2>
+          <p>产业观察建立在技术理解之上：看产品，也看约束、成本、数据与规模化路径。</p>
+        </div>
+
+        <div class="industry-list">
+          <article class="industry-item reveal">
+            <span class="industry-code">IR-01</span><div><h3>Humanoid Robotics</h3><p>人形机器人的形态价值、落地场景、核心零部件与量产瓶颈。</p></div><span class="industry-label">赛道研究</span>
+          </article>
+          <article class="industry-item reveal">
+            <span class="industry-code">IR-02</span><div><h3>Unitree</h3><p>从四足到人形机器人的产品路线、运动能力与成本控制。</p></div><span class="industry-label">公司研究</span>
+          </article>
+          <article class="industry-item reveal">
+            <span class="industry-code">IR-03</span><div><h3>Tesla Optimus</h3><p>视觉方案、端到端学习、数据闭环与制造场景中的规模化逻辑。</p></div><span class="industry-label">技术路线</span>
+          </article>
+          <article class="industry-item reveal">
+            <span class="industry-code">IR-04</span><div><h3>Robotics Market Analysis</h3><p>机器人市场结构、商业化节奏、供应链与长期行业趋势。</p></div><span class="industry-label">趋势观察</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section timeline-section" id="timeline">
+        <div class="section-heading reveal">
+          <p class="kicker">07 / Timeline</p>
+          <h2>把长期目标，<br />拆成可验证的阶段。</h2>
+          <p>这条时间线记录能力建设，而不是制造一份静态履历。</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><span></span></div><p class="timeline-date">NOW</p>
+            <div><p class="mono-label">FOUNDATION</p><h3>夯实底层技术</h3><p>深化 C/C++、嵌入式系统、FreeRTOS 与电机控制，通过真实硬件建立工程直觉。</p></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><span></span></div><p class="timeline-date">NEXT</p>
+            <div><p class="mono-label">INTEGRATION</p><h3>构建机器人系统能力</h3><p>围绕 ROS 2、导航、机械臂和系统集成，完成可运行、可复现的机器人项目。</p></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><span></span></div><p class="timeline-date">FUTURE</p>
+            <div><p class="mono-label">INTELLIGENCE</p><h3>探索具身智能与 VLA</h3><p>通过论文复现与机器人实验，理解通用策略、数据闭环和真实部署的关键问题。</p></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><span></span></div><p class="timeline-date">LONG TERM</p>
+            <div><p class="mono-label">ENGINEERING</p><h3>成为机器人技术研发人员</h3><p>连接底层控制、系统工程与智能算法，持续解决真实世界中的机器人问题。</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
         <div class="contact-orbit" aria-hidden="true"><span></span><span></span></div>
-        <p class="kicker reveal">Let's connect</p>
-        <h2 class="reveal">Curious minds build<br />better robots together.</h2>
-        <p class="reveal">Open to discussing robotics research, reproducible systems, and collaboration.</p>
-        <a class="button button-primary reveal" href="https://github.com/kbsybf">Start a conversation <span>↗</span></a>
+        <p class="kicker reveal">08 / Contact</p>
+        <h2 class="reveal">保持好奇，持续构建。</h2>
+        <p class="reveal">欢迎通过 GitHub 交流机器人、嵌入式系统、控制与具身智能相关话题。</p>
+        <div class="contact-links reveal">
+          <a class="contact-card" href="https://github.com/kbsybf" target="_blank" rel="noreferrer">
+            <span class="contact-icon">GH</span><span><b>GitHub</b><small>github.com/kbsybf</small></span><i>↗</i>
+          </a>
+          <div class="contact-card contact-disabled" aria-label="邮箱暂未公开">
+            <span class="contact-icon">@</span><span><b>Email</b><small>暂未公开 · 可通过 GitHub 联系</small></span><i>—</i>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer>
-      <span>© <span data-year></span> kbsybf</span>
-      <span>Designed for robotics research</span>
-      <a href="#top">Back to top ↑</a>
+      <span>© <span data-year></span> YBF</span>
+      <span>Robotics · Embedded Systems · Embodied AI</span>
+      <a href="#top">返回顶部 ↑</a>
     </footer>
 
     <script src="script.js"></script>

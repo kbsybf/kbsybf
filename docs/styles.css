@@ -228,7 +228,7 @@ h1 em { color: #8adfff; font-style: normal; text-shadow: 0 0 32px rgba(70, 215, 
 .section { width: min(calc(100% - 3rem), var(--max-width)); margin: 0 auto; padding: 7.5rem 0; scroll-margin-top: 4rem; }
 .section-heading { display: grid; grid-template-columns: 0.7fr 1.35fr 1fr; gap: 2.5rem; align-items: end; margin-bottom: 3.4rem; }
 .section-heading .kicker { align-self: start; margin: 0.35rem 0 0; }
-.section-heading h2, .contact-section h2 { margin-bottom: 0; font-size: clamp(2.2rem, 4.1vw, 4rem); font-weight: 700; letter-spacing: -0.045em; }
+.section-heading h2, .contact-section h2 { margin-bottom: 0; font-size: clamp(2rem, 3.3vw, 3.25rem); font-weight: 700; letter-spacing: -0.04em; }
 .section-heading > p:last-child { margin: 0; color: var(--muted); font-family: var(--font-cn); font-size: 0.87rem; }
 
 .about-layout { display: grid; grid-template-columns: 1.08fr 1.4fr; gap: 1rem; }
@@ -392,7 +392,7 @@ footer a:hover { color: var(--cyan); }
   .button { min-width: 0; min-height: 2.6rem; padding: 0.62rem 0.55rem; font-size: 0.65rem; white-space: nowrap; }
   .hero-index { display: none; }
   .section { width: calc(100% - 2rem); padding-block: 5.4rem; }
-  .section-heading h2, .contact-section h2 { font-size: 2.25rem; }
+  .section-heading h2, .contact-section h2 { font-size: 1.9rem; line-height: 1.22; }
   .about-cards { grid-template-columns: 1fr; }
   .profile-panel { min-height: 0; padding: 1.35rem; }
   .profile-meta span { flex-direction: column; gap: 0.15rem; }
